@@ -19,8 +19,6 @@ player0Score.innerHTML = 0;
 player1Score.innerHTML = 0;
 diceEl.classList.add('hidden');
 let activePlayer = 0;
-
-
 let currentScore = 0;
 
 //roll dice function
@@ -35,6 +33,26 @@ btnRoll.addEventListener('click', function(){
         document.querySelector(`#current--${activePlayer}`).innerHTML = currentScore;
     } else {
         document.querySelector(`#current--${activePlayer}`).innerHTML = 0;
+        activePlayer = activePlayer === 0 ? 1 : 0;
+        currentScore = 0;
+        player0El.classList.toggle('player--active');
+        player1El.classList.toggle('player--active');
+    }
+});
+
+btnHold.addEventListener('click', function(){
+    scores[activePlayer] += currentScore;
+    document.querySelector(`#score--${activePlayer}`).textContent = scores[activePlayer];
+    document.querySelector(`#current--${activePlayer}`).innerHTML = 0;
+ 
+
+    if (scores[activePlayer] >= 19) {
+        document.querySelector(`.player--${activePlayer}`).classList.add('player--winner');
+        document.querySelector(`.player--${activePlayer}`).classList.remove('player--active');
+        diceEl.classList.add('hidden');
+        btnHold.disabled = true;
+        btnRoll.disabled = true;
+    } else {
         activePlayer = activePlayer === 0 ? 1 : 0;
         currentScore = 0;
         player0El.classList.toggle('player--active');
