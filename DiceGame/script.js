@@ -40,6 +40,7 @@ btnRoll.addEventListener('click', function(){
     }
 });
 
+//btn to hold/add classes
 btnHold.addEventListener('click', function(){
     scores[activePlayer] += currentScore;
     document.querySelector(`#score--${activePlayer}`).textContent = scores[activePlayer];
@@ -58,4 +59,20 @@ btnHold.addEventListener('click', function(){
         player0El.classList.toggle('player--active');
         player1El.classList.toggle('player--active');
     }
+});
+
+//btn to reset the game
+btnNew.addEventListener('click', function(){
+    scores = [0, 0];
+    activePlayer = 0;
+    currentScore = 0;
+    player0Score.innerHTML = 0;
+    player1Score.innerHTML = 0;
+    diceEl.classList.add('hidden');
+    btnHold.disabled = false;
+    btnRoll.disabled = false;
+    player0El.classList.remove('player--winner');
+    player1El.classList.remove('player--winner');
+    player0El.classList.add('player--active');
+    player1El.classList.remove('player--active');
 });
