@@ -64,15 +64,20 @@ main {
 
 .btns {
     position: absolute;
-    bottom: 12%;
-    left: 32%;
-    color: white;
+    bottom: 10%;
+    left: 69%;
+    width: 65%;
+    transform: translate(-57%, 0);
+    display: flex;
+    gap: 6px;
 }
 
 .btnLeft, .btnRight {
-    background-color: rgb(65, 57, 57);
-    color: rgb(177, 165, 165);
-    padding: 1em;
-    border: 1px solid black;
-    box-shadow: -4px 3px 0 rgb(24, 23, 23), -5px 5px 0 rgb(0, 0, 0);
+   background-color: rgb(66, 62, 62);
+   padding: 1em;
+   color: white;
+}
+
+.btns:active {
+    font-size: 0.7em;
 }
