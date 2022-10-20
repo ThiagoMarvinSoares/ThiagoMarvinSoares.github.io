@@ -27,15 +27,15 @@ main {
     left: 0;
     max-width: 70px;
     bottom: 53%;
-    left: 42%;
-    height: 14%;
+    left: 40%;
+    height: 16%;
 }
 
 .pokemonData {
     position: absolute;
     font-size: clamp(10px, 4vw, 20px);
     bottom: 41%;
-    left: 39%;
+    right: 34%;
 }
 
 .pokemonNumber {
@@ -58,7 +58,7 @@ main {
     border-radius: 5px;
     border: solid 1px black;
     color: rgb(49, 43, 43);
-    font-size: clamp(4px, 4vw, 14px);
+    font-size: clamp(1px, 3vw, 14px);
     box-shadow: -3px 3px 0 #888, -4px 5px 0 #333;
 }
 
