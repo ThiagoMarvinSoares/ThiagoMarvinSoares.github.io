@@ -1,0 +1,59 @@
+@use "../../sass/variables.scss" as *;
+
+.pageWrap {
+    width: 685px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+    &__body {
+        display: flex;
+        border-bottom: 6px solid $white;
+        justify-content: space-between;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        color: $white;
+        padding-bottom: 40px;
+    }
+    &__heading {
+        margin: 0 15px;
+    }
+}
+
+.todoList {
+    padding-top: 33px;
+
+    .todoElement {
+        color: $white;
+        font-family: Raleway;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__functions--checkbox {
+        // position: fixed;
+        margin-left: 320px;
+    }
+
+    &__functions--button{
+        margin: 0 5px;
+    }
+
+    &__functions--div {
+        margin: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__form--button {
+        margin-left: 442px;
+    }
+}
+
+form {
+    max-width: 685px;
+}
+
