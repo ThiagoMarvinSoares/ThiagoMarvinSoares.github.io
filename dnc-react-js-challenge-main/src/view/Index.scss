@@ -2,6 +2,7 @@
 
 .page {
   background-color: #2D2D2D;
+  min-height: 100vh;
     &__title {
         color: $white;
         padding: 219px 65px 126px 64px;
