@@ -10,7 +10,9 @@ function ToDoList() {
   const [todo, setTodo] = useState('');
   const [todoEditing, setTodoEditing] = useState(null);
   const [editingText, setEditingText] = useState('');
- const [openModal, setOpenModal] = useState(false);
+  const [openModal, setOpenModal] = useState(false);
+  const [deleteTodoId, setDeleteTodoId] = useState(null);
+
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -55,8 +57,15 @@ function ToDoList() {
           {todoEditing === todo.id ? (<input className='todoList__form--input' placeholder='Digite a nova tarefa' type="text" onChange={(e) => setEditingText(e.target.value)} value={editingText}/>) : (<div className='todoElement'>{todo.text}</div>)}
           <input className='todoList__functions--checkbox' type="checkbox" />
           <div className='todoList__buttonsGroup'>
-            <button className='todoList__functions--button' onClick={() => setOpenModal(true)}><img src={DeleteIcon} alt="" /></button>
-            {/* () => deleteTodo(todo.id) */}
+          <button
+            className='todoList__functions--button'
+            onClick={() => {
+            setDeleteTodoId(todo.id);
+            setOpenModal(true); // Open the modal
+            }}
+          >
+            <img src={DeleteIcon} alt="" />
+          </button>
             {todoEditing === todo.id ? (<button className='todoList__functions--button' onClick={() => editTodo(todo.id)}>Editar</button>) : (<button onClick={() => setTodoEditing(todo.id)}><img src={EditIcon} alt="" /></button>)}    
           </div>
         </div>)}
@@ -71,10 +80,10 @@ function ToDoList() {
       className="overlay" 
       open={openModal}
       onClose={()=> setOpenModal(false)}
-      // onDelete={() => {
-      //   deleteTodo(deleteTodoId);
-      //   setOpenModal(false);
-      // }}
+      onDelete={() => {
+        deleteTodo(deleteTodoId);
+        setOpenModal(false);
+      }}
       deleteTodo={deleteTodo}
       />
     </div>
