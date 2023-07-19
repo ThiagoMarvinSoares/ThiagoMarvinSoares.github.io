@@ -1,33 +1,32 @@
 @use "../sass/variables.scss" as *;
 
 .page {
-  background-color: #2D2D2D;
+  background-color: #2d2d2d;
   min-height: 100vh;
-    &__title {
-        color: $white;
-        padding: 219px 65px 126px 64px;
-        text-align: center;
-        font-size: 40px;
-    }
-    &__body--table {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        
-    }
-    &__table--heading {
-        color: $white;
-        font-size: 30px;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-    }
-    &__body--list {
-        width: 685px;
-        padding: 40px 0 33px 0;
-    }
-    .containerUl {
-        padding: 40px 0 33px 0;
-    }
+  &__title {
+    color: $white;
+    padding: 219px 65px 126px 64px;
+    text-align: center;
+    font-size: 40px;
+  }
+  &__body--table {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  &__table--heading {
+    color: $white;
+    font-size: 30px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  &__body--list {
+    width: 685px;
+    padding: 40px 0 33px 0;
+  }
+  .containerUl {
+    padding: 40px 0 33px 0;
+  }
 }
