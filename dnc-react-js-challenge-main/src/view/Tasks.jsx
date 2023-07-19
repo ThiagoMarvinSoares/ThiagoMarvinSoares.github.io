@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/Header.jsx";
+import Header from "../components/Header/Header.jsx";
 import "./Index.scss";
 import "../components/ToDoList/ToDoList.jsx";
 import ToDoList from "../components/ToDoList/ToDoList.jsx";
