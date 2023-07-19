@@ -32,22 +32,10 @@ function ToDoList() {
     setTodos(updatedTodos);
   };
 
-  // const editTodo = (id) => {
-  //   const updatedTodos = [...todos].map((todo) => {
-  //     if (todo.id === id) {
-  //       todo.text = editingText;
-  //     }
-  //     return todo;
-  //   });
-  //   setTodo(updatedTodos);
-  //   setTodoEditing(null);
-  //   setEditingText("");
-  // };
-
   const editTodo = (id) => {
   const updatedTodos = todos.map((todo) => {
     if (todo.id === id) {
-      return { ...todo, text: editingText }; // Update only the text property of the specific todo
+      return { ...todo, text: editingText };
     }
     return todo;
   });
