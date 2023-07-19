@@ -32,17 +32,30 @@ function ToDoList() {
     setTodos(updatedTodos);
   };
 
+  // const editTodo = (id) => {
+  //   const updatedTodos = [...todos].map((todo) => {
+  //     if (todo.id === id) {
+  //       todo.text = editingText;
+  //     }
+  //     return todo;
+  //   });
+  //   setTodo(updatedTodos);
+  //   setTodoEditing(null);
+  //   setEditingText("");
+  // };
+
   const editTodo = (id) => {
-    const updatedTodos = [...todos].map((todo) => {
-      if (todo.id === id) {
-        todo.text = editingText;
-      }
-      return todo;
-    });
-    setTodo(updatedTodos);
-    setTodoEditing(null);
-    setEditingText("");
-  };
+  const updatedTodos = todos.map((todo) => {
+    if (todo.id === id) {
+      return { ...todo, text: editingText }; // Update only the text property of the specific todo
+    }
+    return todo;
+  });
+
+  setTodos(updatedTodos);
+  setTodoEditing(null);
+  setEditingText("");
+};
 
   return (
     <div className="pageWrap">
@@ -85,8 +98,7 @@ function ToDoList() {
                     className="todoList__functions--button"
                     onClick={() => editTodo(todo.id)}
                   >
-                    <img src={ConfirmIcon} alt="" className="ConfirmIcon"/>
-  
+                    <img src={ConfirmIcon} alt="" className="ConfirmIcon" />
                   </button>
                 ) : (
                   <button onClick={() => setTodoEditing(todo.id)}>
