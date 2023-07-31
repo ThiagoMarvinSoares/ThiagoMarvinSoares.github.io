@@ -1,3 +1,17 @@
 # Welcome to projects.
 
+- 🔭 I’m currently working on projects to make a good portfolio.
+  
+- 🌱 I’m currently learning React.js
+
 This folder contains all the projects done by Thiago Marvin while learning.
+
+Link to all projects live:
+
+DiceGame 🎲 : https://thiagomarvinsoares.github.io/DiceGame
+
+GuessIt 🤔 : https://thiagomarvinsoares.github.io/GuessIt
+
+Pokedex 🔴⚪ : https://thiagomarvinsoares.github.io/Pokedex
+
+ToDo List ✔️: https://thiago-marvin-soares-github-io.vercel.app
