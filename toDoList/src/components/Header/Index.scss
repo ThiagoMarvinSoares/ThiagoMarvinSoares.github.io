@@ -1,0 +1,28 @@
+@use "../../sass/variables.scss" as *;
+
+.header {
+  background-color: $header-background !important;
+  height: 74px;
+  display: flex;
+  align-items: flex-end;
+  &__items--wrap {
+    display: flex;
+    align-items: flex-end;
+  }
+  &__title {
+    color: $white;
+    padding-right: 30px;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 29px 39px 7px 61px;
+  }
+  .selected {
+    background-color: $white !important;
+    color: $header-background;
+    border-radius: 10px 10px 0 0;
+    padding: 9px 40px 7px 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
