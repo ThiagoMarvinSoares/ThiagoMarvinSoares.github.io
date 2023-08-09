@@ -27,18 +27,24 @@ function ToDoList() {
     setTodo("");
   };
 
+
+  //Delete the todo item
   const deleteTodo = (id) => {
     const updatedTodos = [...todos].filter((todo) => todo.id !== id);
     setTodos(updatedTodos);
   };
 
+
+  //Edit the todo item
   const editTodo = (id) => {
-  const updatedTodos = todos.map((todo) => {
+    if (editingText.trim().length !== 0) { //prevents empty input
+      const updatedTodos = todos.map((todo) => {
     if (todo.id === id) {
       return { ...todo, text: editingText };
     }
     return todo;
   });
+    }
 
   setTodos(updatedTodos);
   setTodoEditing(null);
@@ -61,16 +67,19 @@ function ToDoList() {
                   className="todoList__form--input"
                   placeholder="Digite a nova tarefa"
                   type="text"
+                  maxLength={15}
                   onChange={(e) => setEditingText(e.target.value)}
                   value={editingText}
                 />
               ) : (
                 <div className="todoElement">{todo.text}</div>
               )}
-              <input
+              <div className="item--checkbox">
+                <input
                 className="todoList__functions--checkbox"
                 type="checkbox"
-              />
+                />
+              </div>
               <div className="todoList__buttonsGroup">
                 <button
                   className="todoList__functions--button"
