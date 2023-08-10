@@ -14,6 +14,8 @@ function ToDoList() {
   const [openModal, setOpenModal] = useState(false);
   const [deleteTodoId, setDeleteTodoId] = useState(null);
 
+
+  //Handles the submit button
   const handleSubmit = (event) => {
     event.preventDefault();
 
@@ -27,29 +29,27 @@ function ToDoList() {
     setTodo("");
   };
 
-
   //Delete the todo item
   const deleteTodo = (id) => {
     const updatedTodos = [...todos].filter((todo) => todo.id !== id);
     setTodos(updatedTodos);
   };
 
-
   //Edit the todo item
   const editTodo = (id) => {
-    if (editingText.trim().length !== 0) { //prevents empty input
+    if (editingText.trim().length !== 0) {
+      //prevents empty input
       const updatedTodos = todos.map((todo) => {
-    if (todo.id === id) {
-      return { ...todo, text: editingText };
+        if (todo.id === id) {
+          return { ...todo, text: editingText };
+        }
+        return todo;
+      });
+      setTodos(updatedTodos);
+      setTodoEditing(null);
+      setEditingText("");
     }
-    return todo;
-  });
-    }
-
-  setTodos(updatedTodos);
-  setTodoEditing(null);
-  setEditingText("");
-};
+  };
 
   return (
     <div className="pageWrap">
@@ -76,8 +76,8 @@ function ToDoList() {
               )}
               <div className="item--checkbox">
                 <input
-                className="todoList__functions--checkbox"
-                type="checkbox"
+                  className="todoList__functions--checkbox"
+                  type="checkbox"
                 />
               </div>
               <div className="todoList__buttonsGroup">
