@@ -1,8 +1,8 @@
 @use "../../sass/variables.scss" as *;
 
 form {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .pageWrap {
@@ -38,8 +38,6 @@ form {
     line-height: normal;
   }
 
-    
-
   .item--checkbox {
     position: fixed;
     margin-left: 320px;
@@ -66,7 +64,7 @@ form {
 }
 
 .crossImg {
-    margin-right: 24px;
+  margin-right: 24px;
 }
 
 .ConfirmIcon {
