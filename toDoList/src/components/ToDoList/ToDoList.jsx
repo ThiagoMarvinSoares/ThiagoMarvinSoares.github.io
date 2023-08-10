@@ -14,6 +14,8 @@ function ToDoList() {
   const [openModal, setOpenModal] = useState(false);
   const [deleteTodoId, setDeleteTodoId] = useState(null);
 
+
+  //Handles the submit button
   const handleSubmit = (event) => {
     event.preventDefault();
 
