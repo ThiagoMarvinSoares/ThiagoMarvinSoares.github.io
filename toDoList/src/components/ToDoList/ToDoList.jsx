@@ -85,7 +85,7 @@ function ToDoList() {
                   className="todoList__functions--button"
                   onClick={() => {
                     setDeleteTodoId(todo.id);
-                    setOpenModal(true); // Open the modal
+                    setOpenModal(true);
                   }}
                 >
                   <img src={DeleteIcon} alt="" />
