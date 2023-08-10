@@ -50,11 +50,13 @@ $ npm run server
 # abra outro terminal e rode o projeto
 $ npm run dev
 ```
+
 - [Acesse a aplicação](http://localhost:5173)
 
 <hr>
 
-by Felipe Borges<br>
+by Thiago Marvin<br>
+
 <div>
 	<a href="https://www.linkedin.com/in/felipejsborges">
 		<img width="32px" src="https://github.com/felipejsborges/felipejsborges/blob/master/assets/linkedin.svg" alt="LinkedIn">
