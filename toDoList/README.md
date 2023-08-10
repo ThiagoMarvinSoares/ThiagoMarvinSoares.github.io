@@ -1,17 +1,7 @@
 <div align="center">
 	<h1>Listagem de tarefas</h1>
 	<br>
-	<p align="center">
-		<a href="https://www.linkedin.com/in/felipejsborges/">
-		  <img alt="made by" src="https://img.shields.io/badge/made%20by-Felipe%20Borges-orange">
-		</a>
-		<a href="https://github.com/felipejsborges/pokemon-challenge/commits/master">
-		  <img alt="last commit" src="https://img.shields.io/github/last-commit/felipejsborges/felipejsborges">
-		</a>
-	</p>
 </div>
-
-<hr>
 
 <h4>Descrição 📄</h4>
 
@@ -58,13 +48,7 @@ $ npm run dev
 by Thiago Marvin<br>
 
 <div>
-	<a href="https://www.linkedin.com/in/felipejsborges">
+	<a href="https://www.linkedin.com/in/thiago-marvin-069186187/">
 		<img width="32px" src="https://github.com/felipejsborges/felipejsborges/blob/master/assets/linkedin.svg" alt="LinkedIn">
-	</a>
-	<a href="https://wa.me/+55012996477129">
-		<img width="32px" src="https://github.com/felipejsborges/felipejsborges/blob/master/assets/whatsapp.svg" alt="WhatsApp">
-	</a>
-	<a href="mailto:felipejsborges@outlook.com">
-		<img width="32px" src="https://github.com/felipejsborges/felipejsborges/blob/master/assets/mail.svg" alt="E-mail">
 	</a>
 </div>
