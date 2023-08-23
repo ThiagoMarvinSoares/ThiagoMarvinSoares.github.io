@@ -16,5 +16,7 @@ Pokedex 🔴⚪ : https://thiagomarvinsoares.github.io/Pokedex
 
 ToDo List ✔️: https://thiago-marvin-soares-github-io.vercel.app
 
+WeatherAPI are being fixed!
+
 
 I also work on a website that sell companies, you can check it out here : https://querovenderminhaempresa.com
