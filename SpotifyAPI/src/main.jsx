@@ -8,10 +8,6 @@ import Home from "./views/Home/Home";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Login />,
-  },
-  {
-    path: "/Home",
     element: <Home />,
   },
 ]);
