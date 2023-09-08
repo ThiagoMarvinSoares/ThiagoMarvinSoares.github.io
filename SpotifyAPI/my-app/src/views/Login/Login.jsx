@@ -4,7 +4,7 @@ import { useState, useHistory, useEffect } from "react";
 
 const Login = () => {
   const CLIENT_ID = '25a63e4d84c74ebbae326c3eeb57534c';
-  const REDIRECT_URI = 'http://localhost:5173';
+  const REDIRECT_URI = 'https://thiago-marvin-soares-github-io-x9k8.vercel.app';
   const AUTH_ENDPOINT = 'https://accounts.spotify.com/authorize';
   const RESPONSE_TYPE = 'token';
   const SCOPES = 'streaming user-read-email user-read-private user-library-read user-library-modify user-read-playback-state user-modify-playback-state';
