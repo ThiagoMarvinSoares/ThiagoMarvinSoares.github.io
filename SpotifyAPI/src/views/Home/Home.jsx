@@ -159,6 +159,8 @@ const Home = () => {
     }
   }, []);
 
+  console.log(currentlyPlayingArtistName, currentlyPlayingMusicName);
+
   return (
     <div className='centered-container'>
       <div className="container">
