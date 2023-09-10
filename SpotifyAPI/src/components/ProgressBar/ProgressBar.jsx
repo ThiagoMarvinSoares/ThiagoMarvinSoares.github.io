@@ -1,6 +1,6 @@
 import "../ProgressBar/index.scss"
 
-const ProgressBar = ({ progressBarRef, audioRef, currentTime, duration }) => {
+const ProgressBar = ({ progressBarRef, currentTime, duration }) => {
     const formatTime = (time) => {
         if (!isNaN(time)) {
             const minutes = Math.floor(time / 60);
