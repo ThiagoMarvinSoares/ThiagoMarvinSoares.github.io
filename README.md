@@ -8,7 +8,7 @@ This folder contains all the projects done by Thiago Marvin while learning.
 
 Link to all projects live:
 
-Pure JavaScript <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;:
+<img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;:
 
 DiceGame 🎲 : https://thiagomarvinsoares.github.io/DiceGame
 
@@ -16,7 +16,7 @@ GuessIt 🤔 : https://thiagomarvinsoares.github.io/GuessIt
 
 Pokedex 🔴⚪ : https://thiagomarvinsoares.github.io/Pokedex
 
-React.JS <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;:
+<img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;:
 
 ToDo List ✔️: https://thiago-marvin-soares-github-io.vercel.app
 
