@@ -16,6 +16,8 @@ Pokedex 🔴⚪ : https://thiagomarvinsoares.github.io/Pokedex
 
 ToDo List ✔️: https://thiago-marvin-soares-github-io.vercel.app
 
+Spotify music preview: https://thiago-marvin-soares-github-io-r5q1.vercel.app
+
 WeatherAPI are being fixed!
 
 
