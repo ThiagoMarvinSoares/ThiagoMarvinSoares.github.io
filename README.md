@@ -8,11 +8,15 @@ This folder contains all the projects done by Thiago Marvin while learning.
 
 Link to all projects live:
 
+Pure JavaScript:
+
 DiceGame 🎲 : https://thiagomarvinsoares.github.io/DiceGame
 
 GuessIt 🤔 : https://thiagomarvinsoares.github.io/GuessIt
 
 Pokedex 🔴⚪ : https://thiagomarvinsoares.github.io/Pokedex
+
+React.JS:
 
 ToDo List ✔️: https://thiago-marvin-soares-github-io.vercel.app
 
