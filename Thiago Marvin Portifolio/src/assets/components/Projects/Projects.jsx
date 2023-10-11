@@ -23,19 +23,19 @@ const Projects = () => {
     };
     const goToDiceGame = () => {
         // Replace 'portfolio-page-url-spotify' with the actual URL of the Spotify portfolio page
-        window.location.href = 'https://thiago-marvin-soares-github-io-r5q1.vercel.app';
+        window.location.href = 'https://thiagomarvinsoares.github.io/DiceGame';
     };
     const goToGuessIt = () => {
         // Replace 'portfolio-page-url-spotify' with the actual URL of the Spotify portfolio page
-        window.location.href = 'https://thiago-marvin-soares-github-io-r5q1.vercel.app';
+        window.location.href = 'https://thiagomarvinsoares.github.io/GuessIt';
     };
     const goToPokedex = () => {
         // Replace 'portfolio-page-url-spotify' with the actual URL of the Spotify portfolio page
-        window.location.href = 'https://thiago-marvin-soares-github-io-r5q1.vercel.app';
+        window.location.href = 'https://thiagomarvinsoares.github.io/Pokedex';
     };
     const goTotoDoList = () => {
         // Replace 'portfolio-page-url-spotify' with the actual URL of the Spotify portfolio page
-        window.location.href = 'https://thiago-marvin-soares-github-io-r5q1.vercel.app';
+        window.location.href = 'https://thiago-marvin-soares-github-io.vercel.app';
     };
     return (
         <div className="projects">
