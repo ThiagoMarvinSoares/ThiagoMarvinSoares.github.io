@@ -1,11 +1,7 @@
 @media screen and (max-width: 998px) and (min-width: 100px) {
   .abWrap {
-    // background-image: url("../../Images/skillsbackground.jpg");
-    background-color: #222;
     color: #00d6b4;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-image: url(../../Images/moon-2048727_1280.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -105,7 +101,7 @@
 @media screen and (max-width: 2100px) and (min-width: 999px) {
   .abWrap {
     // background-image: url("../../Images/skillsbackground.jpg");
-    background-color: #222;
+    background-image: url(../../Images/moon-2048727_1280.jpg);
     color: #00d6b4;
     -webkit-background-size: cover;
     -moz-background-size: cover;
