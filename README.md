@@ -22,6 +22,8 @@ ToDo List ✔️: https://thiago-marvin-soares-github-io.vercel.app
 
 Spotify music preview 🎵: https://thiago-marvin-soares-github-io-r5q1.vercel.app
 
+My portifolio: https://thiago-marvin-soares-github-io-or4c-6vrybv6fb.vercel.app
+
 WeatherAPI is being fixed!
 
 
