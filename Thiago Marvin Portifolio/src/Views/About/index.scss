@@ -1,0 +1,118 @@
+@media screen and (max-width: 998px) and (min-width: 100px) {
+  .about {
+    background-color: #222;
+    color: white;
+    height: auto;
+
+    &__wrap {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 100px;
+      // width: 50%;
+
+      &--elements {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        .infoWrap {
+          display: flex;
+          margin: 30px;
+          align-content: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .linkBtns {
+            padding: 20px 10px;
+            margin: 10px 10px;
+            border-radius: 10px;
+            border: solid 1px #00d6b4;
+            background-color: #222;
+            color: white;
+            text-decoration: none;
+          }
+        }
+      }
+
+      .me {
+        width: 250px;
+        padding: 90px 0 0 0;
+      }
+    }
+
+    h2 {
+      color: #00d6b4;
+      margin: 10px 0;
+      padding: 20px 0 0 0;
+      padding-bottom: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 2100px) and (min-width: 999px) {
+  .about {
+    background-color: #222;
+    color: white;
+    height: 100vh;
+
+    &__wrap {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      // width: 50%;
+
+      &--elements {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        margin: 70px 0;
+
+        .infoWrap {
+          display: flex;
+          margin-left: 60px;
+          margin-top: 50px;
+          // width: 50%;
+          justify-content: flex-start;
+          .linkBtns {
+            padding: 20px 30px;
+            margin-top: 30px;
+            border-radius: 10px;
+            border: solid 1px #00d6b4;
+            background-color: #222;
+            color: white;
+            text-decoration: none;
+          }
+          .linkBtns:hover {
+            -webkit-box-shadow: 1px 4px 16px -2px #00d6b4;
+            box-shadow: 1px 4px 16px -2px #00d6b4;
+          }
+          .slide {
+            margin: 30px;
+          }
+        }
+      }
+
+      .me {
+        width: 35%;
+        padding: 22px 50px 0 0;
+      }
+    }
+
+    h2 {
+      color: #00d6b4;
+      margin: 22px 0;
+      padding: 10px;
+      padding-bottom: 10px;
+    }
+
+    p {
+      width: 80%;
+      justify-content: center;
+    }
+  }
+}
