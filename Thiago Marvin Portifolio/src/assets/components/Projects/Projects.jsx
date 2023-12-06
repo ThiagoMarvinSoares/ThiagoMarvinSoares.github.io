@@ -13,28 +13,22 @@ import QueroVender from "../../Images/querovender.png"
 const Projects = () => {
 
     const goToQueroVender = () => {
-        // Replace 'portfolio-page-url-quero-vender' with the actual URL of the QueroVender portfolio page
         window.location.href = 'https://querovenderminhaempresa.com/';
     };
 
     const goToSpotify = () => {
-        // Replace 'portfolio-page-url-spotify' with the actual URL of the Spotify portfolio page
         window.location.href = 'https://thiago-marvin-soares-github-io-r5q1.vercel.app';
     };
     const goToDiceGame = () => {
-        // Replace 'portfolio-page-url-spotify' with the actual URL of the Spotify portfolio page
         window.location.href = 'https://thiagomarvinsoares.github.io/DiceGame';
     };
     const goToGuessIt = () => {
-        // Replace 'portfolio-page-url-spotify' with the actual URL of the Spotify portfolio page
         window.location.href = 'https://thiagomarvinsoares.github.io/GuessIt';
     };
     const goToPokedex = () => {
-        // Replace 'portfolio-page-url-spotify' with the actual URL of the Spotify portfolio page
         window.location.href = 'https://thiagomarvinsoares.github.io/Pokedex';
     };
-    const goTotoDoList = () => {
-        // Replace 'portfolio-page-url-spotify' with the actual URL of the Spotify portfolio page
+    const goTotoDoList = () => { 
         window.location.href = 'https://thiago-marvin-soares-github-io.vercel.app';
     };
     return (
