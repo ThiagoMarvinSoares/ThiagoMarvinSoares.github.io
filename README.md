@@ -25,6 +25,3 @@ Spotify music preview 🎵: https://thiago-marvin-soares-github-io-r5q1.vercel.a
 My portifolio: https://thiago-marvin-soares-github-io-or4c-6vrybv6fb.vercel.app
 
 WeatherAPI is being fixed!
-
-
-I also work on a website that sell companies, you can check it out here : https://querovenderminhaempresa.com
