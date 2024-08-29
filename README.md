@@ -2,7 +2,6 @@
 
 - 🔭 I’m currently working on projects to make a good portfolio.
   
-- 🌱 I’m currently learning React.js
 
 This folder contains all the projects done by Thiago Marvin while learning.
 
